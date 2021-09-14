@@ -1,8 +1,8 @@
-# jupyter-slides
+# [lkeegan.github.io/jupyter-reveal](https://lkeegan.github.io/jupyter-reveal)
 
 A simple way to convert a jupyter notebook into an online web presentation.
 
-The notebook [index.ipynb](index.ipynb) is converted into [reveal.js](https://revealjs.com/) html slides and hosted by github pages at [https://lkeegan.github.io/jupyter-reveal](lkeegan.github.io/jupyter-reveal)
+The notebook [index.ipynb](index.ipynb) is converted into [reveal.js](https://revealjs.com/) html slides and hosted by github pages at [lkeegan.github.io/jupyter-reveal](https://lkeegan.github.io/jupyter-reveal)
 
 ## How to set up
 
