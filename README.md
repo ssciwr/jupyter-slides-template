@@ -2,7 +2,7 @@
 
 A simple way to convert a jupyter notebook into an online web presentation.
 
-The notebook [index.ipynb](index.ipynb) is converted into [reveal.js](https://revealjs.com/) html slides and hosted by github pages at [ssciwr.github.io/jupyter-slides-template](https://ssciwr.github.io/jupyter-slides-template)
+The notebook [jupyter-slides-template.ipynb](jupyter-slides-template.ipynb) is converted into [reveal.js](https://revealjs.com/) html slides and hosted by github pages at [ssciwr.github.io/jupyter-slides-template](https://ssciwr.github.io/jupyter-slides-template)
 
 ## How to set up
 
