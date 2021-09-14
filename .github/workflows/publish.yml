@@ -1,0 +1,23 @@
+name: Publish
+
+on: push
+
+jobs:
+  publish:
+    name: Publish reveal.js slides
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - run: pip install -r requirements.txt
+      - run: jupyter nbconvert index.ipynb --to slides --execute
+      - run: mkdir dist && mv index.slides.html dist/index.html
+      - uses: JamesIves/github-pages-deploy-action@4.1.5
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        name: Deploy to gh-pages
+        with:
+          branch: gh-pages
+          folder: dist
+          single-commit: true
