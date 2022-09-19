@@ -28,6 +28,6 @@ repos:
           - "prettier-plugin-toml"
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.18.2
+    rev: 0.18.3
     hooks:
       - id: check-github-workflows
