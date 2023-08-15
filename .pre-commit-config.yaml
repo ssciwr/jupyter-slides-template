@@ -9,7 +9,7 @@ repos:
       - id: check-toml
 
   - repo: https://github.com/psf/black
-    rev: 23.3.0
+    rev: 23.7.0
     hooks:
       - id: black
       - id: black-jupyter
@@ -20,14 +20,17 @@ repos:
       - id: nbstripout
 
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: v3.0.0
+    rev: v3.0.1
     hooks:
       - id: prettier
         additional_dependencies:
-          - prettier@2.3.2
+          - prettier
           - "prettier-plugin-toml"
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.23.2
+    rev: 0.24.1
     hooks:
       - id: check-github-workflows
+
+ci:
+  autoupdate_schedule: quarterly
