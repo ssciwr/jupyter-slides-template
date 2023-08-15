@@ -24,10 +24,13 @@ repos:
     hooks:
       - id: prettier
         additional_dependencies:
-          - prettier@2.3.2
+          - prettier
           - "prettier-plugin-toml"
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
     rev: 0.24.1
     hooks:
       - id: check-github-workflows
+
+ci:
+  autoupdate_schedule: quarterly
