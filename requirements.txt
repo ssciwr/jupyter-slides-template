@@ -1,5 +1,4 @@
 jupyter
-rise
 
 # The following packages are only required for the example
 # notebook. You should replace them with the dependencies

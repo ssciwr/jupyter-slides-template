@@ -7,7 +7,7 @@ The notebook [jupyter-slides-template.ipynb](jupyter-slides-template.ipynb) is c
 ## Quickstart
 
 - click the [Use this template](https://github.com/ssciwr/jupyter-slides-template/generate) button to create your own repo based on this one
-- enable gh-pages for your repo: Settings -> Pages -> Source branch: gh-pages
+- enable gh-pages for your repo: Settings -> Pages -> Source: `GitHub Actions`
 - slides will appear at `YOUR_USERNAME.github.io/YOUR_REPO_NAME`
 
 ## Optional extras
