@@ -9,7 +9,7 @@ repos:
       - id: check-toml
 
   - repo: https://github.com/psf/black
-    rev: 24.10.0
+    rev: 25.1.0
     hooks:
       - id: black
       - id: black-jupyter
@@ -28,7 +28,7 @@ repos:
           - "prettier-plugin-toml"
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.30.0
+    rev: 0.33.2
     hooks:
       - id: check-github-workflows
 
