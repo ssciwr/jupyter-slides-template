@@ -15,7 +15,7 @@ jobs:
       - run: sudo apt update -qy && sudo apt install ffmpeg -qy
       - run: jupyter nbconvert *.ipynb --to slides --execute
       - run: mkdir dist && mv *.slides.html dist/index.html
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: "dist/"
 
